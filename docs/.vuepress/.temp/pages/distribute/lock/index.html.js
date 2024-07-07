@@ -1,5 +1,5 @@
 import comp from "C:/Users/root/Desktop/docsresp/docs/.vuepress/.temp/pages/distribute/lock/index.html.vue"
-const data = JSON.parse("{\"path\":\"/distribute/lock/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"多线程\",\"slug\":\"多线程\",\"link\":\"#多线程\",\"children\":[]},{\"level\":2,\"title\":\"并发问题\",\"slug\":\"并发问题\",\"link\":\"#并发问题\",\"children\":[]},{\"level\":2,\"title\":\"锁\",\"slug\":\"锁\",\"link\":\"#锁\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"distribute/lock/README.md\"}")
+const data = JSON.parse("{\"path\":\"/distribute/lock/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"多线程\",\"slug\":\"多线程\",\"link\":\"#多线程\",\"children\":[]},{\"level\":2,\"title\":\"并发问题\",\"slug\":\"并发问题\",\"link\":\"#并发问题\",\"children\":[]},{\"level\":2,\"title\":\"锁\",\"slug\":\"锁\",\"link\":\"#锁\",\"children\":[]}],\"git\":{\"updatedTime\":1720258666000,\"contributors\":[{\"name\":\"yinhuiSpace\",\"email\":\"2705696192@qq.com\",\"commits\":1}]},\"filePathRelative\":\"distribute/lock/README.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
