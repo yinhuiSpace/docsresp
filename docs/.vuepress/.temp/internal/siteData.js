@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/docsresp/\",\"lang\":\"en-US\",\"title\":\"知识库\",\"description\":\"知识库文章\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"VuePress\",\"description\":\"Vue-powered Static Site Generator\"},\"/zh/\":{\"lang\":\"zh-CN\",\"title\":\"VuePress\",\"description\":\"Vue 驱动的静态网站生成器\"}}}")
+export const siteData = JSON.parse("{\"base\":\"/docsresp/\",\"lang\":\"zh-CN\",\"title\":\"知识库\",\"description\":\"知识库文章\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"VuePress\",\"description\":\"Vue 驱动的静态网站生成器\"},\"/zh/\":{\"lang\":\"zh-CN\",\"title\":\"VuePress\",\"description\":\"Vue 驱动的静态网站生成器\"}}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

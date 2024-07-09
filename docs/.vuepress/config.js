@@ -3,11 +3,21 @@ import {defineUserConfig} from 'vuepress/cli'
 import {viteBundler} from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-    // lang: 'zh-CN',
+    lang: 'zh-CN',
 
     title: '知识库',
     description: '知识库文章',
     base: '/docsresp',
+
+    // plugins: [
+    //     commentPlugin({
+    //         provider: 'Giscus',
+    //         repo: 'yinhuiSpace/giscusresp',
+    //         repoId: 'R_kgDOMTAolQ',
+    //         category: 'Announcements',
+    //         categoryId: 'DIC_kwDOMTAolc4Cgn3e'
+    //     }),
+    // ],
 
     locales: {
         // 键名是该语言所属的子路径
@@ -15,7 +25,7 @@ export default defineUserConfig({
         '/': {
             lang: 'zh-CN',
             title: 'VuePress',
-            description: 'Vue-powered Static Site Generator',
+            description: 'Vue 驱动的静态网站生成器',
         },
         '/zh/': {
             lang: 'zh-CN',
@@ -25,6 +35,16 @@ export default defineUserConfig({
     },
     theme: defaultTheme({
         logo: 'https://vuejs.press/images/hero.png',
+        lastUpdatedText: '更新时间',
+        contributorsText: '更新人',
+
+        notFound:[
+            '页面已丢失~'
+        ],
+        backToHome:'返回首页',
+
+        prev: '上一章',
+        next: '下一章',
 
         navbar: [
             {
@@ -44,6 +64,10 @@ export default defineUserConfig({
                 link: '/open/'
             },
             {
+                text:'赞助作者',
+                link: '/sponsor/'
+            },
+            {
                 text: 'GitHub',
                 link: 'https://github.com/yinhuiSpace/docsresp.git'
             }
@@ -58,6 +82,33 @@ export default defineUserConfig({
                     // 基于项目路径的 .md 或 .html 后缀是可以省略的
                     link: '/algorithm/leetcodeh100/',
                     prefix: 'leetcodeh100/',
+                    children:[
+                        '两数之和',
+                        '盛最多水的容器',
+                        '三数之和'
+
+                    ]
+                },
+                {
+                    text: '场景题',
+                    collapsible: true,
+                    // 基于项目路径的 .md 或 .html 后缀是可以省略的
+                    link: '/algorithm/scene/',
+                    prefix: 'scene/',
+                    children:[
+                        '两数之和',
+                        '盛最多水的容器'
+
+                    ]
+                }
+            ],
+            '/open/': [
+                {
+                    text: 'flutter',
+                    collapsible: true,
+                    // 基于项目路径的 .md 或 .html 后缀是可以省略的
+                    link: '/open/flutter/',
+                    prefix: 'flutter/',
                     children:[
                         '两数之和',
                         '盛最多水的容器'
@@ -104,7 +155,10 @@ export default defineUserConfig({
                     collapsible: true,
                     // 基于项目路径的 .md 或 .html 后缀是可以省略的
                     link: '/distribute/cache/',
-                    children:['1/','1/a.md']
+                    prefix: 'cache/',
+                    children:[
+                        'Redis应用场景'
+                    ]
                 },
                 {
                     text: '日志系统',

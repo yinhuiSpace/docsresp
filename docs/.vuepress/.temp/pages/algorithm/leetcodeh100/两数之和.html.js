@@ -1,5 +1,5 @@
 import comp from "C:/Users/root/Desktop/docsresp/docs/.vuepress/.temp/pages/algorithm/leetcodeh100/两数之和.html.vue"
-const data = JSON.parse("{\"path\":\"/algorithm/leetcodeh100/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.html\",\"title\":\"两数之和\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"思路\",\"slug\":\"思路\",\"link\":\"#思路\",\"children\":[]},{\"level\":2,\"title\":\"题目\",\"slug\":\"题目\",\"link\":\"#题目\",\"children\":[]},{\"level\":2,\"title\":\"代码\",\"slug\":\"代码\",\"link\":\"#代码\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"algorithm/leetcodeh100/两数之和.md\"}")
+const data = JSON.parse("{\"path\":\"/algorithm/leetcodeh100/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.html\",\"title\":\"两数之和\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"思路\",\"slug\":\"思路\",\"link\":\"#思路\",\"children\":[]},{\"level\":2,\"title\":\"题目\",\"slug\":\"题目\",\"link\":\"#题目\",\"children\":[]},{\"level\":2,\"title\":\"代码\",\"slug\":\"代码\",\"link\":\"#代码\",\"children\":[]}],\"git\":{\"updatedTime\":1720329895000,\"contributors\":[{\"name\":\"yinhuiSpace\",\"email\":\"2705696192@qq.com\",\"commits\":1}]},\"filePathRelative\":\"algorithm/leetcodeh100/两数之和.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

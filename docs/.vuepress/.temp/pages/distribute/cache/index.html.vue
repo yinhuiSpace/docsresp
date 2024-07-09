@@ -2,6 +2,33 @@
 <ul>
 <li>多级缓存</li>
 </ul>
+<p>redis</p>
+<ul>
+<li>
+<p>序列化</p>
+</li>
+<li>
+<p>计数器</p>
+</li>
+<li>
+<p>位统计</p>
+</li>
+<li>
+<p>列表</p>
+</li>
+<li>
+<p>集合运算</p>
+</li>
+<li>
+<p>倒排索引</p>
+</li>
+<li>
+<p>集群模式</p>
+</li>
+<li>
+<p>缓存问题</p>
+</li>
+</ul>
 </div></template>
 
 
